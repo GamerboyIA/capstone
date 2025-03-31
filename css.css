@@ -1,0 +1,70 @@
+
+#title {
+  font-size: 200%;
+text-align: center;
+text-decoration: underline;
+  padding: 0px 0px 20px 0px;
+}
+
+
+#picture {
+  margin:auto;
+  text-align: center;
+  position: relative;
+  border: 4px solid black;
+ height: 250px;
+  width:300px;
+
+
+/* 
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1px;
+  word-wrap: break-word;
+  border: 4px solid black;
+  width: 1400px;
+  margin: auto;
+*/
+  
+}
+
+
+/*#picture_word{
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid black;
+  width: 550px;
+  
+}
+*/
+
+
+.img-text{
+position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+  width: 100%;
+  font-size: 130%;
+  text-decoration: underline;
+/*find font that looks good and works in multiple formats*/
+}
+
+
+#tree {
+  width: 300px;
+  height: 250px;
+
+  
+}
+
+#brochure {
+
+border: 2px solid black;
+height: 900px;
+width: 1300px;
+text-align: center; 
+margin: auto;
+}
