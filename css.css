@@ -1,4 +1,3 @@
-
 #title {
   font-size: 200%;
 text-align: center;
@@ -6,6 +5,13 @@ text-decoration: underline;
   padding: 0px 0px 20px 0px;
 }
 
+/*Banner*/
+#ba-title{
+text-align: center; 
+margin: auto;
+  text-decoration: underline;
+  font-size: 200%;
+}
 
 #picture {
   margin:auto;
@@ -14,9 +20,7 @@ text-decoration: underline;
   border: 4px solid black;
  height: 250px;
   width:300px;
-
-
-/* 
+  /* 
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -25,21 +29,16 @@ text-decoration: underline;
   border: 4px solid black;
   width: 1400px;
   margin: auto;
-*/
+  */
   
 }
-
-
 /*#picture_word{
   text-align: left;
   padding: 5px 10px 5px 10px;
   border: 2px solid black;
   width: 550px;
   
-}
-*/
-
-
+}*/
 .img-text{
 position: absolute;
   top: 10px;
@@ -48,15 +47,22 @@ position: absolute;
   color: black;
   width: 100%;
   font-size: 130%;
+    font-family: 	cursive;
   text-decoration: underline;
-/*find font that looks good and works in multiple formats*/
 }
-
-
 #tree {
   width: 300px;
   height: 250px;
 
+}
+
+/*Brochure*/
+
+#br-title {
+  text-align: center; 
+  margin: auto; 
+  text-decoration: underline;
+    font-size: 200%;
   
 }
 
@@ -67,4 +73,59 @@ height: 900px;
 width: 1300px;
 text-align: center; 
 margin: auto;
+}
+
+/*Bill Board*/
+
+#bb-title {
+  text-align: center;
+  margin: auto;
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+#billboard {
+  border: 4px solid black;
+  height: 500px; 
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+#board-img {
+ 
+  height: 500px;
+  width: 700px;
+}
+
+
+.board-text {
+position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  width: 475px;
+  font-size: 300%;
+  border: 2px solid black;
+}
+
+.board-link {
+position: absolute;
+  bottom: 1%;
+  left: 1%;
+/*  transform: translate(-50%); */
+  color: white;
+  width: 100px;
+  font-size: 150%;
+  border: 2px solid black;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
