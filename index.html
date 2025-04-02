@@ -53,85 +53,141 @@
 	(Print)       -->
 
 
-    <p id="br-title"> --Brochure-- </p>
-    <br>
+<p id="br-title"> --Brochure-- </p>
+
+
+<br>
     
 <div id="brochure">
-<p class="brochure"> ==Inside== </p>
-<table id="broTableInside">
 
-<!--TOP-->
+<!-- 
 
-    <tr class="BTInside">
-   
-      <td class="inside tdL col1 top">Hello World #1 <br><br> *About me / us* </td>
+			| Brochure checklist / info |
+			
 
-      <td class="inside tdM col2 top"> Hello World #2 <br><br> *Climate change and its problems*</td>
+--- 12 total avaliable segments
+ |
+--- 3 x 2
+ |
+--- 6 inside, 6 outside
+ |
+--- (Inside) | About me | Problem | Damage caused | Solutions | 2 - 3 images |
+ |
+--- (Outside) | "Contact info" | Cover page /w title | Links / QR code | 
+ |
+ |           | 2 - 3 images |
+ |
+---
 
-      <td class="inside tdR col3 top"> Hello World #3 <br><br> *Solutions*</td>
+-->
+
+
+  <p class="brochure"> ==Inside== </p>
+
+
+  <table id="broTableInside">
+
+
+<!-- |  TOP  |  IN  | -->
+
+    <tr class="BTInside inside inside_R">
+
+      <!-- About me -->
+      <td class="inside inside_D tdL col1 top">Hello World #1 <br><br> *About me / us* </td>
+
+      <!-- Problem / Topic -->
+      <td class="inside inside_D tdM col2 top"> Hello World #2 <br><br> *Climate change and its problems* <br> *Problem / Topic* </td>
+
+      <!-- Image -->
+      <td class="inside inside_D tdR col3 top"> Hello World #3 <br><br> *Image* </td>
+
 
     </tr>
     
-<!-- BOTTOM -->
+
+
+<!-- |  BOTTOM  |  IN  | -->
 
     <tr class="BTInside">
 
-      <td class="inside tdL col1 bottom"></td>
+      <!-- Image -->
+      <td class="inside inside_D tdL col1 bottom"> *Image* </td>
 
-      <td class="inside tdM col2 bottom"></td>
+      <!-- Damage / Issues -->
+      <td class="inside inside_D tdM col2 bottom"> *Damage* </td>
 
-      <td class="inside tdR col3 bottom"></td>
+      <!-- Solution (What you can do) -->
+      <td class="inside inside_D tdR col3 bottom"> *Solution* </td>
+    
       
     </tr>
     
-</table>
+
+ </table>
+
 
 <br><br>
 
+
 <p class="brochure"> ==Back== </p>
 
-<!-- TOP -->
+<!-- |  TOP  |  OUT  | -->
 
 <table id="broTableOutside">
 
-    <tr class="BTOutside">
-    
-      <td class="outside tdR col1 top"> Hello World C </td>
 
-<!--When Closed is Back -->
-      <td class="outside tdM col2 top backPage"> Hello World B <br><br> (Back Page) <br><br> *Info about organization / movement* </td>
+    <tr class="BTOutside outside outside_R">
 
-<!-- When closed is Front -->
-      <td class="outside tdL col3 top frontPage"> Hello World A  <br><br> (Front Page) <br><br> *Title / Topic* </td>
+      <!-- Links / QR Code -->
+      <td class="outside outside_D tdR col1 top"> *Links / QR Code* </td>
+
+      <!-- "Contact Info"  -->
+      <td class="outside outside_D tdM col2 top backPage"> *Contact Info* <br><br> (Back Page) <br><br> *asdfjasdlfjaslkdjfalsdfjakls Info about organization / movement*</td>
+ 
+      <!-- Front Page / Title -->
+      <td id="titlePage" class="outside outside_D tdL col3 top frontPage">
+
+         <div id="titlePageText">
+
+         Test <br> Test 2 <br> Test 3
+
+         </div>
+
+       *Front Page / Title*  <br><br> (Front Page) <br><br> *Title / Topic* 
+
+      </td>
+
 
     </tr>
 
-<!-- BOTTOM -->
+<!-- |  BOTTOM  |  OUT  | -->
 
+<!--
     <tr class="BTOutside">
+
 
       <td class="outside tdR col1 bottom">ee</td>
 
+
       <td class="outside tdM col2 bottom">e</td>
+
 
       <td class="outside tdL col3 bottom">e</td>
 
 
-
-
     </tr>
     
+-->
 
-
-
-</table>
-
-
+ </table>
 
 
 </div>
 
+<!--|--------------------------------------------|-->
+
 <br><br><br><br><br><br><br><br><br><br>	
+
 
 <!-- Deliverable #3
 
