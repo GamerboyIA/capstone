@@ -93,13 +93,21 @@
     <tr class="BTInside inside inside_R">
 
       <!-- About me -->
-      <td class="inside inside_D tdL col1 top">Hello World #1 <br><br> *About me / us* </td>
+      <td id="aboutPage" class="inside inside_D tdL col1 top">Hello World #1 <br><br> *About me / us* </td>
 
       <!-- Problem / Topic -->
-      <td class="inside inside_D tdM col2 top"> Hello World #2 <br><br> *Climate change and its problems* <br> *Problem / Topic* </td>
+      <td id="problemPage" class="inside inside_D tdM col2 top"> Hello World #2 <br><br> *Climate change and its problems* <br> *Problem / Topic* </td>
 
-      <!-- Image -->
-      <td class="inside inside_D tdR col3 top"> Hello World #3 <br><br> *Image* </td>
+      <!-- Image #1 -->
+      <td id="imagePage_1" class="inside inside_D tdR col3 top"> Hello World #3 <br><br> *Image 1* 
+
+        <div id="image_1"> 
+           
+           <p id="imageText_1"> hello </p>
+          
+        </div>
+
+      </td>
 
 
     </tr>
@@ -110,14 +118,23 @@
 
     <tr class="BTInside">
 
-      <!-- Image -->
-      <td class="inside inside_D tdL col1 bottom"> *Image* </td>
+      <!-- Image #2 -->
+      <td id="imagePage_2" class="inside inside_D tdL col1 bottom"> *Image 2* 
+
+	<div id="image_2">
+
+	  <p id="imageText_2"> hello </p>
+	  
+	</div>
+	
+
+      </td>
 
       <!-- Damage / Issues -->
-      <td class="inside inside_D tdM col2 bottom"> *Damage* </td>
+      <td id="damagePage" class="inside inside_D tdM col2 bottom"> *Damage* </td>
 
       <!-- Solution (What you can do) -->
-      <td class="inside inside_D tdR col3 bottom"> *Solution* </td>
+      <td id="solutionPage" class="inside inside_D tdR col3 bottom"> *Solution* </td>
     
       
     </tr>
@@ -139,8 +156,9 @@
     <tr class="BTOutside outside outside_R">
 
       <!-- Links / QR Code -->
-      <td class="outside outside_D tdR col1 top"> *Links / QR Code* 
+      <td id="qrPage" class="outside outside_D tdR col1 top"> *Links / QR Code* 
 
+	<!-- 200px 200px -->
         <div id="qr_code">
 
           <a id="qrCodeLink" href="http://172.27.67.33/~isaac/ela_project/index.html">
@@ -151,10 +169,19 @@
 
         </div>
 
+	<div id="qr_text">
+
+
+	  Scan here to visit our website!
+
+
+	</div>
+
+
       </td>
 
       <!-- "Contact Info"  -->
-      <td class="outside outside_D tdM col2 top backPage"> *Contact Info* <br><br> (Back Page) <br><br> *asdfjasdlfjaslkdjfalsdfjakls Info about organization / movement*</td>
+      <td id="contactPage" class="outside outside_D tdM col2 top backPage"> *Contact Info* <br><br> (Back Page) <br><br> *asdfjasdlfjaslkdjfalsdfjakls Info about organization / movement*</td>
  
       <!-- Front Page / Title -->
       <td id="titlePage" class="outside outside_D tdL col3 top frontPage">
