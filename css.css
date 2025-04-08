@@ -164,7 +164,6 @@ text-decoration: underline;
    }
 
    #image_1 {
-     border: 3px solid red;
      width: 424px;
      height: 602px;
      position: absolute;
@@ -193,7 +192,6 @@ text-decoration: underline;
    }
 
    #image_2 {
-     border: 3px solid white;
      width: 424px;
      height: 602px;
      position: absolute;
@@ -222,40 +220,75 @@ width: 400px;
   /*  Title Page */
 
  #titlePage {
-   border: 6px solid red;
    vertical-align: middle;
    text-align: center;
    position: relative;
 }
 
  #titlePageText {
-   border: 3px solid green;
-   max-height: 250px;
-   height: 200px;
-   width: 405px;
-   font-size: 250%;
-   padding: 70px 0px;
-   text-align: center;
    position: absolute; 
    top: 50%;
    left: 50%; 
    transform: translate(-50%, -50%);
+
+   border: 3px solid green;
+   height: 200px;
+   width: 405px;
+
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+ #titleText {
+   font-size: 240%;
+ }
 
  #titleDesc {
    border: 2px solid blue;
 }
 
+/* W-428px H-1200px B-4px */
 /* Contact Page */
 
 #contactPage {
-
+position: relative;
 }
 
 
 #contactText {
-
+position: absolute;
+top: 17.5%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 3px solid black;
+height: 330px;
+width: 400px;
 }
+
+
+#contactText-1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 3px solid blue;
+height: 330px;
+width: 400px;
+}
+
+
+#contactText-2 {
+position: absolute;
+top: 82.5%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 3px solid red;
+height: 330px;
+width: 400px;
+}
+
 
 
 /* Links / QR Code*/
@@ -267,15 +300,15 @@ width: 400px;
  #qr_code {
    position: absolute;
    left: 50%;
-   top: 10%;
-   transform: translate(-50%);
+   top: 40%;
+   transform: translate(-50%, -50%);
    border: 3px solid black;
-   height: 200px;
-   width: 200px;
-   text-wrap: breakword;
-   text-align: center;
-   vertical-align: middle;
-   line-height: 200px;
+   height: 250px;
+   width: 250px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 #qrCodeImg {
@@ -285,12 +318,31 @@ vertical-align: middle;
 
 #qr_text {
 position: absolute;
-transform: translate(-50%);
+transform: translate(-50%, -50%);
 left: 50%;
-top: 28%;
+top: 55%;
 border: 3px solid blue;
 height: 55px;
 width: 250px;
+
+}
+
+
+ #qrLink {
+  position: absolute;
+  top: 97%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  height: 30px;
+  width: 250px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ #qrLinkText {
 
 }
 
