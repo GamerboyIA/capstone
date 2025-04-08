@@ -153,8 +153,34 @@ text-decoration: underline;
   /* Problem Page (Top) */
 
    #problemPage {
+    position: relative;
+   
+   }
 
+   #problemTextBox {
+   vertical-align: top;
+   text-align: left;
+   padding: 1px 7px 1px 7px;
+   background-color: red;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border: 3px solid black;
+     height: 592px;
+     width: 418px;
+   }
 
+   #problemText {
+   text-align: left;
+   background-color: red;
+   width: 410px;
+   padding: 3px 3px 3px 3px;
+   font-size: 110%;
+position: absolute;
+top: 1px;
+left: 50%;
+transform: translate( -50%);
    }
 
   /* Image #1 (Top) */
@@ -212,7 +238,53 @@ border: 3px solid white;
 height: 400px;
 width: 400px;
 }
-   
+
+
+/* Damage */
+
+  #damagePage {
+position:relative; 
+}
+  
+     
+  #damageTextBox {
+
+}
+
+ 
+  #damageText {
+   width: 410px;
+   position: absolute;
+   top: 1px; 
+   left: 50%;  
+   transform: translate(-50%);
+   text-align: left;
+   font-size: 105%;
+}
+
+#solutionPage {
+position: relative;
+}
+
+
+#solutionTextBox {
+
+height: 20px;
+width: 20px;
+}
+
+
+#solutionText {
+position:absolute;
+top: 1px;
+left: 50%;
+transform: translate(-50%);
+width: 410px;
+text-align: left;
+font-size: 110%;
+}
+
+
 /* ===| OUTSIDE |=== */
 
 
