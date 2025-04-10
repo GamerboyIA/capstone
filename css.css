@@ -292,8 +292,6 @@ font-size: 110%;
   /*  Title Page */
 
  #titlePage {
-   vertical-align: middle;
-   text-align: center;
    position: relative;
 }
 
@@ -324,21 +322,22 @@ font-size: 110%;
 #titlePageImg1 {
 position: absolute;
 left: 50%;
-top: 15%;
+top: 20%;
 transform: translate(-50%, -50%);
 border: 2px solid black;
-width: 255px;
-height: 255px;
+width: 350px;
+height: 350px;
 }
 
 #titlePageImg2 {
+border: 3px solid red;
 position: absolute;
-left: 31%;
-top: 75%;
-transform: translate(-50px);
+left: 50%;
+top: 80%;
+transform: translate(-50%, -50%);
 border: 2px solid black;
-width: 255px;
-height: 255px;
+width: 350px;
+height: 350px;
 }
 
 /* W-428px H-1200px B-4px */
