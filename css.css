@@ -207,8 +207,8 @@ transform: translate( -50%);
    line-height: 400px;
    vertical-align: middle;
    border: 3px solid white;
-   height: 400px;
-   width: 400px;
+   width: 359px;
+   height: 294px;
 }
  
   /* Image #2 (Bottom) */
@@ -235,8 +235,8 @@ transform: translate( -50%);
 line-height: 400px;
 vertical-align: middle;
 border: 3px solid white;
-height: 400px;
 width: 400px;
+height: 400px;
 }
 
 
@@ -269,8 +269,8 @@ position: relative;
 
 #solutionTextBox {
 
-height: 20px;
 width: 20px;
+height: 20px;
 }
 
 
@@ -304,8 +304,8 @@ font-size: 110%;
    transform: translate(-50%, -50%);
 
    border: 3px solid green;
-   height: 200px;
    width: 405px;
+   height: 200px;
 
    align-items: center;
    display: flex;
@@ -319,6 +319,26 @@ font-size: 110%;
 
  #titleDesc {
    border: 2px solid blue;
+}
+
+#titlePageImg1 {
+position: absolute;
+left: 50%;
+top: 15%;
+transform: translate(-50%, -50%);
+border: 2px solid black;
+width: 255px;
+height: 255px;
+}
+
+#titlePageImg2 {
+position: absolute;
+left: 31%;
+top: 75%;
+transform: translate(-50px);
+border: 2px solid black;
+width: 255px;
+height: 255px;
 }
 
 /* W-428px H-1200px B-4px */
@@ -375,8 +395,8 @@ width: 400px;
    top: 40%;
    transform: translate(-50%, -50%);
    border: 3px solid black;
-   height: 250px;
-   width: 250px;
+   height: 300px;
+   width: 300px;
    align-items: center;
    display: flex;
    justify-content: center;
@@ -385,14 +405,15 @@ width: 400px;
 
 #qrCodeImg {
 vertical-align: middle;
-		
+height: 300px;
+width: 300px;		
 }
 
 #qr_text {
 position: absolute;
 transform: translate(-50%, -50%);
 left: 50%;
-top: 55%;
+top: 58%;
 border: 3px solid blue;
 height: 55px;
 width: 250px;
