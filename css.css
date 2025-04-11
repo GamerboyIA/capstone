@@ -96,6 +96,8 @@ text-wrap: break-word;
 
 
 p.brochure {
+text-align: left;
+margin: 20px 0px 20px 160px;
 font-size: 250%;
 text-decoration: underline;
 }
