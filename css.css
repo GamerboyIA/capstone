@@ -1,3 +1,11 @@
+body {
+text-align: center;
+}
+
+h1, h2 {
+text-align: left;
+}
+
 #title {
   font-size: 200%;
 text-align: center;
@@ -111,7 +119,6 @@ text-decoration: underline;
 
 #aboutText {
   text-align: left;
-   background-color: blue;
    width: 410px;
    padding: 3px 3px 3px 3px;
    font-size: 110%;
@@ -140,7 +147,6 @@ text-decoration: underline;
 
    #problemText {
    text-align: left;
-   background-color: red;
    width: 410px;
    padding: 3px 3px 3px 3px;
    font-size: 110%;
@@ -230,7 +236,6 @@ text-decoration: underline;
  
   #damageText {
    text-align: left;
-   background-color: red;
    width: 410px;
    padding: 3px 3px 3px 3px;
    font-size: 110%;
@@ -265,7 +270,6 @@ height: 20px;
 
 #solutionText {
    text-align: left;
-   background-color: green;
    width: 410px;
    padding: 3px 3px 3px 3px;
    font-size: 110%;
@@ -293,7 +297,6 @@ font-size: 98%;
    left: 50%; 
    transform: translate(-50%, -50%);
 
-   border: 3px solid green;
    width: 405px;
    height: 200px;
 
@@ -322,7 +325,6 @@ height: 350px;
 }
 
 #titlePageImg2 {
-border: 3px solid red;
 position: absolute;
 left: 50%;
 top: 80%;
@@ -364,28 +366,51 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-border: 3px solid blue;
+border: 3px solid black;
 height: 330px;
 width: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
+#address {
+font-size: 130%;
+}
 
 #contactText-2 {
 position: absolute;
 top: 82.5%;
 left: 50%;
 transform: translate(-50%, -50%);
-border: 3px solid red;
+border: 3px solid black;
 height: 330px;
 width: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 
+#organization {
+font-size: 120%;
+}
 
 /* Links / QR Code*/
  #qrPage {
    text-align: center;
    position: relative;
+}
+
+#qrTitle {
+font-size: 120%;
+position: absolute;
+top: 1px;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+text-decoration: underline;
+width: 250px;
 }
 
  #qr_code {
@@ -413,7 +438,7 @@ position: absolute;
 transform: translate(-50%, -50%);
 left: 50%;
 top: 58%;
-border: 3px solid blue;
+border: 3px solid black;
 height: 55px;
 width: 250px;
 
@@ -451,15 +476,15 @@ color: teal;
 /*Front*/
 
 .col1.inside {
-background-color: blue;
+background-color: lightblue;
 }
 
 .col2.inside {
-background-color: red;
+background-color: lightblue;
 }
 
 .col3.inside {
-background-color: green;
+background-color: lightblue;
 }
 
 
@@ -470,11 +495,11 @@ background-color: lightblue;
 }
 
 .col2.outside {
-background-color: pink;
+background-color: lightblue;
 }
 
 .col3.outside {
-background-color: lightgreen;
+background-color: lightblue;
 }
 
 .inside {
@@ -506,6 +531,7 @@ margin: auto;
 */
 
 #deliv_1_2 {
+margin: auto;
 position: relative;
 margin: auto;
 width: 1200px;
